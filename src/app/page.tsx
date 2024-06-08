@@ -16,10 +16,10 @@ export default function Home() {
       If you\'re trying to use event.stopPropagation() in a submit event handler, consider 
       also calling event.preventDefault().')"
       */}
-      <Link href='/contact'>Contact Us</Link>
+      <Link href='/contact'>Contact Us via Nextjs Link component</Link>
 
       {/* via this standard <a> the contact page renders as expected: */}
-      <a href='/contact'>contact Us via a anchor</a>
+      <a href='/contact'>contact Us via a HTML a anchor</a>
 
       {/* 
       The form tag below loads correctly as this is page is opened via the browser.
